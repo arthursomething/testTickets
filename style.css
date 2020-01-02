@@ -10,7 +10,9 @@
 }
 
 .ticket{
-    background-image: linear-gradient(to right bottom,#AC13E5,#16A3E2);
+    background-image: url('./ticket.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 100px;
     /* width: 200px; */
     margin: 10px;
@@ -45,6 +47,7 @@
     border-radius: 0px 30px 30px 0px;
     position: relative;
     left:-15%;
+    display: none;
 }
 
 .rightCric{
@@ -54,4 +57,9 @@
     border-radius: 30px 0px 0px 30px;
     position: relative;
     right:-15%;
+    display: none;
+}
+
+.ticket span {
+    display: none;
 }
